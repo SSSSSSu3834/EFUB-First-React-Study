@@ -9,7 +9,7 @@ function MyButton(props) {
     isClicked ? "Clicked" : "Clicked here!"
   );
 }
-//리액트를 사용하지 않았을 때
+//리액트를 사용하지 않았을 때의 코드(매우 복잡하다)
 
 const domContainer = document.querySelector("#root");
 ReactDOM.render(React.createElement(MyButton), domContainer);
